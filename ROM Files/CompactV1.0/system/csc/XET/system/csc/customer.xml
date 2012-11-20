@@ -1,0 +1,315 @@
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED001</CSCEdition>
+    <Country>ITALY</Country>
+    <SalesCode>XET</SalesCode>
+    <NbNetworkInfo>5</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>22201</MCCMNC>
+      <NetworkName>TIM</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>22210</MCCMNC>
+      <NetworkName>Vodafone</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>22288</MCCMNC>
+      <NetworkName>WIND</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>22288</MCCMNC>
+      <NetworkName>WIND BIZ</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>22299</MCCMNC>
+      <NetworkName>H3G</NetworkName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Network>
+        <NbFastDormancy>1</NbFastDormancy>
+        <FastDormancy>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+        </FastDormancy>
+        <NbSOSNumber>2</NbSOSNumber>
+        <SOSNumber>112</SOSNumber>
+        <SOSNumber>911</SOSNumber>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>off</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Phone>
+        <DefLanguage>italian</DefLanguage>
+        <DefLanguageNoSIM>italian</DefLanguageNoSIM>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+          <TimeFormat>24h</TimeFormat>
+        </DateTimeFormat>
+      </Phone>
+      <Security />
+    </Main>
+    <Messages>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+        <CharSupport>gsmalpha</CharSupport>
+        <SSMS>on</SSMS>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <CreationMode>warning</CreationMode>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+      </MMS>
+    </Messages>
+    <Message>
+      <SMS>
+        <CellBroadcast>on</CellBroadcast>
+      </SMS>
+    </Message>
+    <BT>
+      <Activation>off</Activation>
+      <Visibility>off</Visibility>
+    </BT>
+    <Browser>
+      <NbBookmark>1</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Samsung Apps</BookmarkName>
+        <URL>http://m.it.samsungapps.com</URL>
+      </Bookmark>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>5</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>TIM</NetworkName>
+        <ProfBrowser>TIM WAP</ProfBrowser>
+        <ProfMMS>TIM MMS</ProfMMS>
+        <ProfIntSharing>TIM WEB</ProfIntSharing>
+        <ProfRCS>TIM WAP</ProfRCS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Vodafone</NetworkName>
+        <ProfBrowser>Vodafone Internet</ProfBrowser>
+        <ProfMMS>Vodafone MMS</ProfMMS>
+        <ProfIntSharing>Vodafone WEB</ProfIntSharing>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>WIND</NetworkName>
+        <ProfBrowser>WIND WEB</ProfBrowser>
+        <ProfMMS>WIND MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>WIND BIZ</NetworkName>
+        <ProfBrowser>WIND BIZ WEB</ProfBrowser>
+        <ProfMMS>WIND BIZ MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>H3G</NetworkName>
+        <ProfBrowser>3 WEB</ProfBrowser>
+        <ProfMMS>3 MMS</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>12</NbProfile>
+      <Profile>
+        <NetworkName>TIM</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>TIM WAP</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>wap.tim.it</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TIM</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>TIM MMS</ProfileName>
+        <URL>http://mms.tim.it/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>213.230.130.89</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>unico.tim.it</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TIM</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>TIM WEB</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ibox.tim.it</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Vodafone Internet</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>mobile.vodafone.it</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Vodafone MMS</ProfileName>
+        <URL>http://mms.vodafone.it/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.128.224.10</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.vodafone.it</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Vodafone WEB</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>web.omnitel.it</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>WIND</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>WIND MMS</ProfileName>
+        <URL>http://mms.wind.it</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>212.245.244.100</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.wind</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>WIND</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>WIND WEB</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet.wind</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>WIND BIZ</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>WIND BIZ MMS</ProfileName>
+        <URL>http://mms.wind.it</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>212.245.244.100</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.wind</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>WIND BIZ</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>WIND BIZ WEB</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>other</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet.wind.biz</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>H3G</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>3 WEB</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>tre.it</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>H3G</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>3 MMS</ProfileName>
+        <URL>http://10.216.59.240:10021/mmsc</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>62.13.171.3</ServAddr>
+          <Port>8799</Port>
+        </Proxy>
+        <PSparam>
+          <APN>tre.it</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

@@ -1,0 +1,251 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED002</CSCEdition>
+    <Country>portugal</Country>
+    <CountryISO>PT</CountryISO>
+    <Region>EUR</Region>
+    <SalesCode>TPH</SalesCode>
+    <NbNetworkInfo>3</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>26806</MCCMNC>
+      <NetworkName>P TMN</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>26801</MCCMNC>
+      <NetworkName>vodafone P</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>26803</MCCMNC>
+      <NetworkName>P Optimus</NetworkName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>off</OneSIMLock>
+      </Security>
+      <Network>
+        <NbMaxPDP>3</NbMaxPDP>
+        <MaxPDP>
+          <NetworkName>P Optimus</NetworkName>
+          <MaxPDP2G>3</MaxPDP2G>
+          <MaxPDP3G>3</MaxPDP3G>
+        </MaxPDP>
+        <MaxPDP>
+          <NetworkName>P TMN</NetworkName>
+          <MaxPDP2G>3</MaxPDP2G>
+          <MaxPDP3G>3</MaxPDP3G>
+        </MaxPDP>
+        <MaxPDP>
+          <NetworkName>vodafone P</NetworkName>
+          <MaxPDP2G>3</MaxPDP2G>
+          <MaxPDP3G>3</MaxPDP3G>
+        </MaxPDP>
+        <NbFastDormancy>3</NbFastDormancy>
+        <FastDormancy>
+          <NetworkName>P TMN</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>vodafone P</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+        </FastDormancy>
+        <FastDormancy>
+          <NetworkName>P Optimus</NetworkName>
+          <FastDormancyEnableStatus>on</FastDormancyEnableStatus>
+        </FastDormancy>
+        <NbSOSNumber>1</NbSOSNumber>
+        <SOSNumber>112</SOSNumber>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>on</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>on</AutoFastDormancy>
+        <AutoWbAmr>off</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Phone>
+        <DefLanguage>automatic</DefLanguage>
+        <DefLanguageNoSIM>portuguese</DefLanguageNoSIM>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+          <TimeFormat>24h</TimeFormat>
+        </DateTimeFormat>
+      </Phone>
+      <Display>
+        <WallpaperType>samsungtheme</WallpaperType>
+      </Display>
+    </Main>
+    <Contact>
+      <ContactSort>firstname</ContactSort>
+    </Contact>
+    <Messages>
+      <NbVoicemail>3</NbVoicemail>
+      <Voicemail>
+        <NetworkName>vodafone P</NetworkName>
+        <VoicemailName>Correio de voz</VoicemailName>
+        <TelNum>123</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>P TMN</NetworkName>
+        <VoicemailName>Correio de voz</VoicemailName>
+        <TelNum>200</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>P Optimus</NetworkName>
+        <VoicemailName>Correio de voz</VoicemailName>
+        <TelNum>133</TelNum>
+      </Voicemail>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+        <MsgTypeThreshold>
+          <ThresholdValue>5</ThresholdValue>
+          <ThresholdType>pagecount</ThresholdType>
+        </MsgTypeThreshold>
+        <CharSupport>gsmalpha</CharSupport>
+        <SSMS>off</SSMS>
+      </SMS>
+      <MMS>
+        <MMSVersion>1.2</MMSVersion>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <CreationMode>warning</CreationMode>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+      </MMS>
+    </Messages>
+    <BT>
+      <Activation>off</Activation>
+      <Visibility>on</Visibility>
+      <SAP>on</SAP>
+    </BT>
+    <Browser>
+      <NbBookmark>2</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Yahoo!</BookmarkName>
+        <URL>http://m.yahoo.com?tsrc=samsungbm</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Samsung</BookmarkName>
+        <URL>http://m.samsung.com/pt</URL>
+      </Bookmark>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>3</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>P TMN</NetworkName>
+        <ProfBrowser>tmn internet</ProfBrowser>
+        <ProfMMS>tmn mms</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>vodafone P</NetworkName>
+        <ProfBrowser>Vodafone Net2</ProfBrowser>
+        <ProfMMS>Vodafone Net2</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>P Optimus</NetworkName>
+        <ProfBrowser>Optimus Internet</ProfBrowser>
+        <ProfMMS>Optimus MMS</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>5</NbProfile>
+      <Profile>
+        <NetworkName>vodafone P</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Vodafone Net2</ProfileName>
+        <URL>http://mms.vodafone.pt/servlets/mms</URL>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>iproxy.vodafone.pt</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>net2.vodafone.pt</APN>
+          <UserId>vodafone</UserId>
+          <Password>vodafone</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>P TMN</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>tmn internet</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>P Optimus</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>PortalOptimus</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>062.169.066.005</ServAddr>
+          <Port>8799</Port>
+        </Proxy>
+        <PSparam>
+          <APN>umts</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>P TMN</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>tmn mms</ProfileName>
+        <URL>http://mmsc/</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.111.2.16</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mmsc.tmn.pt</APN>
+          <UserId>tmn</UserId>
+          <Password>tmnnet</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>P Optimus</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Optimus MMS</ProfileName>
+        <URL>http://mmsc:10021/mmsc</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>062.169.066.005</ServAddr>
+          <Port>8799</Port>
+        </Proxy>
+        <PSparam>
+          <APN>umts</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

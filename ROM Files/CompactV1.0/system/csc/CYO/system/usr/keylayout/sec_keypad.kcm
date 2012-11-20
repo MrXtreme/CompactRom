@@ -1,0 +1,81 @@
+# Copyright (c) 2009, Code Aurora Forum.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+#
+[type=QWERTY] 
+                                                        
+# keycode       display number  base    caps    fn      caps_fn
+                                                        
+A               'A'     '_'     'a'     'A'     '_'     '_'
+B               'B'     '#'     'b'     'B'     '#'     '#'
+C               'C'     '8'     'c'     'C'     '8'     '8'
+D               'D'     '4'     'd'     'D'     '4'     '4'
+E               'E'     '1'     'e'     'E'     '1'     '1'
+F               'F'     '5'     'f'     'F'     '5'     '5'
+G               'G'     '6'     'g'     'G'     '6'     '6'
+H               'H'     '@'     'h'     'H'     '@'     '@'
+I               'I'     '~'     'i'     'I'     '~'     '~'
+J               'J'     '&'     'j'     'J'     '&'     '&'
+K               'K'     ';'     'k'     'K'     ';'     ';'
+L               'L'     ':'     'l'     'L'     ':'     ':'
+M               'M'     '"'     'm'     'M'     '"'     '"'
+N               'N'     '''     'n'     'N'     '''     '''
+O               'O'     '('     'o'     'O'     '('     '('
+P               'P'     ')'     'p'     'P'     ')'     ')'
+Q               'Q'     '/'     'q'     'Q'     '/'     '/'
+R               'R'     '2'     'r'     'R'     '2'     '2'
+S               'S'     '-'     's'     'S'     '-'     '-'
+T               'T'     '3'     't'     'T'     '3'     '3'
+U               'U'     '%'			'u'     'U'     '%'			'%'
+V               'V'     '9'     'v'     'V'     '9'     '9'
+W               'W'     '+'     'w'     'W'     '+'     '+'
+X               'X'     '7'     'x'     'X'     '7'     '7'
+Y               'Y'     0x20AC	'y'     'Y'     0x20AC	0x20AC
+Z               'Z'     '*'     'z'     'Z'     '*'     '*'
+                                                        
+COMMA		    ','     '?'     ','     ','     '?'     '?'
+PERIOD          '.'     '!'     '.'     '.'     '!'     '!'
+AT              '@'     '0'     '@'     '@'     '0'     '0'
+SLASH           '/'     '?'     '/'     '?'     '?'     '/'
+                                                        
+SPACE           0x20    0x20    0x20    0x20    0x20    0x20
+ENTER           0xa     0xa     0xa     0xa     0xa     0xa
+                                                        
+# on pc keyboards
+TAB             0x9     0x9     0x9     0x9     0x9     0x9
+0               '0'     '0'     '0'     '0'     '0'     '0'
+1               '1'     '1'     '1'     '!'     '!'     '!'
+2               '2'     '2'     '2'     '@'     '@'     '@'
+3               '3'     '3'     '3'     '#'     '#'     '#'
+4               '4'     '4'     '4'     '$'     '$'     '$'
+5               '5'     '5'     '5'     '%'     '%'     '%'
+6               '6'     '6'     '6'     '^'     '^'     '^'
+7               '7'     '7'     '7'     '&'     '&'     '&'
+8               '8'     '8'     '8'     '*'     '*'     '*'
+9               '9'     '9'     '9'     '('     '('     '('
+                                                        
+GRAVE           '`'     '`'     '`'     '~'     '`'     '~'
+MINUS           '-'     '-'     '-'     '_'     '-'     '_'
+EQUALS          '='     '='     '='     '+'     '='     '+'
+LEFT_BRACKET    '['     '['     '['     '{'     '['     '{'
+RIGHT_BRACKET   ']'     ']'     ']'     '}'     ']'     '}'
+BACKSLASH       '\'     '\'     '\'     '|'     '\'     '|'
+SEMICOLON       'A'     '%'     ';'     'A'     '%'     0x00
+APOSTROPHE      '?'     ','     '?'     '?'     ','     ','
+STAR            '*'     '*'     '*'     '*'     '*'     '*'
+POUND           '#'     '#'     '#'     '#'     '#'     '#'
+PLUS            '+'     '0'     '+'     '+'     '0'     '0'
+
+                                          

@@ -1,0 +1,75 @@
+#!/system/bin/bash
+toolbox setprop persist.service.adb.enable 1
+if [ -e /data/adbfix.txt ];
+  then
+    toolbox setprop persist.service.adb.enable 1
+    /system/bin/busybox.a2sd ash /system/bin/adbfix
+fi;
+
+
+if [ $# == 0 ];
+  then
+    if [ -e /data/dta2sd.log ];
+      then
+        if [ -e /data/dta2sd.lg2 ];
+          then 
+            /system/bin/busybox.a2sd rm -f /data/dta2sd.lg2
+        fi;
+        if [ -e /data/dta2sd.lg1 ];
+          then
+            /system/bin/busybox.a2sd cp -f /data/dta2sd.lg1 /data/dta2sd.lg2
+            /system/bin/busybox.a2sd rm -f /data/dta2sd.lg1
+        fi;
+        /system/bin/busybox.a2sd cp -f /data/dta2sd.log /data/dta2sd.lg1
+        /system/bin/busybox.a2sd rm -f /data/dta2sd.log
+    fi;
+    echo "[ ] Apps2SD is launching..."
+    echo "[ ] Darktremor Apps2SD Log" > /data/dta2sd.log
+    echo "[ ] Started: `/system/bin/busybox.a2sd date;`" >> /data/dta2sd.log
+    echo "[ ] File running: Main Apps2SD launch (a2sd, apps2sd or 04apps2sd)" >> /data/dta2sd.log
+    a2sdfb1=`getprop cm.filesystem.ready`
+    a2sdfb2=`/system/bin/toolbox ps | /system/bin/busybox.a2sd grep -q -e android.process.acore;echo $?` 
+    if [ ! $a2sdfb1 ];
+      then
+        if [ $a2sdfb2 == 1 ];
+          then
+            echo "[ ] cm.filesystem.ready does not exist and android.process.acore does not exists" >> /data/dta2sd.log
+            echo "[ ] Started with no parameters.  Possible boot launch" >> /data/dta2sd.log
+            echo "[ ] Inserting parameter:  boot" >> /data/dta2sd.log
+            export a2sdparm="boot"
+            setprop cm.filesystem.ready 0
+            setprop dm.filesystem.ready 0
+            setprop oxygen.filesystem.ready 0
+          else
+            echo "[ ] cm.filesystem.ready does not exists, but android.process.acore already started" >> /data/dta2sd.log 
+            echo "[ ] Started with no parameters.  Possible boot launch" >> /data/dta2sd.log
+            echo "[ ] Inserting parameter: firstboot" >> /data/dta2sd.log
+            export a2sdparm="firstboot"
+            setprop cm.filesystem.ready 0
+            setprop dm.filesystem.ready 0
+            setprop oxygen.filesystem.ready 0
+        fi;
+      else
+        echo "[ ] You need to give Darktremor a command to run." | /system/bin/busybox.a2sd tee -a /data/dta2sd.log
+        echo "    Type a2sd help for a list of commands." | /system/bin/busybox.a2sd tee -a /data/dta2sd.log
+        setprop cm.filesystem.ready 1
+        setprop dc.filesystem.ready 1
+        setprop oxygen.filesystem.ready 1
+        exit
+    fi;
+  else
+    echo "[ ] Started with parameter: $1" >> /data/dta2sd.log
+    export a2sdparm=$1
+fi;
+
+echo "[ ] Directory Listing: /dev/block:" >> /data/dta2sd.log
+/system/bin/busybox.a2sd ls -l /dev/block >> /data/dta2sd.log
+echo "[ ] Listing partitions currently active:" >> /data/dta2sd.log
+/system/bin/busybox.a2sd cat /proc/mounts >> /data/dta2sd.log
+echo "[ ] Attempting to launch program:  launcha2sd" >> /data/dta2sd.log
+/system/bin/bash /system/bin/launcha2sd $a2sdparm
+echo "[ ] Ending program: a2sd / apps2sd / 04apps2sd" >> /data/dta2sd.log
+setprop cm.filesystem.ready 1
+setprop dc.filesystem.ready 1
+setprop oxygen.filesystem.ready 1
+exit

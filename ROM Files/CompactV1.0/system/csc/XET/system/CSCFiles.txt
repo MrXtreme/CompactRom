@@ -1,0 +1,12 @@
+/system/csc/XET/system/CSCFiles.txt
+/system/csc/XET/system/default.prop
+/system/csc/XET/system/usr/keychars/sec_keypad.kcm.bin
+/system/csc/XET/system/usr/keychars/sec_keypad0.kcm.bin
+/system/csc/XET/system/usr/keylayout/sec_keypad.kcm
+/system/csc/XET/system/usr/keylayout/sec_keypad.kl
+/system/csc/XET/system/usr/keylayout/sec_keypad0.kl
+/system/csc/XET/system/CSCVersion.txt
+/system/csc/XET/system/csc/customer.xml
+/system/csc/XET/system/csc/others.xml
+/system/csc/XET/system/csc/sales_code.dat
+/system/csc/XET/system/csc/contents.db

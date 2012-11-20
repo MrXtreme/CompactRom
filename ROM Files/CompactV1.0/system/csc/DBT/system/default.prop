@@ -1,0 +1,12 @@
+#############################
+#                           #
+#  Files created by SPRC    #
+#                           # 
+#############################
+
+ro.com.google.clientidbase=android-samsung
+ro.com.google.clientidbase.yt=android-samsung
+ro.com.google.clientidbase.am=android-samsung
+ro.com.google.clientidbase.vs=android-samsung
+ro.com.google.clientidbase.gmm=android-samsung
+ro.com.google.mcc_fallback=262

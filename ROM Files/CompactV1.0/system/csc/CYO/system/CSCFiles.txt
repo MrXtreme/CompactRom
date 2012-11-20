@@ -1,0 +1,11 @@
+/system/csc/CYO/system/CSCFiles.txt
+/system/csc/CYO/system/usr/keychars/sec_keypad.kcm.bin
+/system/csc/CYO/system/usr/keychars/sec_keypad0.kcm.bin
+/system/csc/CYO/system/usr/keylayout/sec_keypad.kcm
+/system/csc/CYO/system/usr/keylayout/sec_keypad.kl
+/system/csc/CYO/system/usr/keylayout/sec_keypad0.kl
+/system/csc/CYO/system/CSCVersion.txt
+/system/csc/CYO/system/csc/customer.xml
+/system/csc/CYO/system/csc/others.xml
+/system/csc/CYO/system/csc/sales_code.dat
+/system/csc/CYO/system/csc/contents.db

@@ -1,0 +1,9 @@
+/system/csc/XSK/system/CSCFiles.txt
+/system/csc/XSK/system/usr/keychars/sec_keypad.kcm.bin
+/system/csc/XSK/system/usr/keylayout/sec_keypad.kcm
+/system/csc/XSK/system/usr/keylayout/sec_keypad.kl
+/system/csc/XSK/system/CSCVersion.txt
+/system/csc/XSK/system/csc/customer.xml
+/system/csc/XSK/system/csc/others.xml
+/system/csc/XSK/system/csc/sales_code.dat
+/system/csc/XSK/system/csc/contents.db

@@ -1,0 +1,45 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+
+<SW-Configuration>
+
+  <MobileData>
+
+    <PublicName>GT-B5512</PublicName>
+
+    <NickName />
+
+  </MobileData>
+
+  <CustomerDataSet>
+
+    <CSCName>B5512OXA</CSCName>
+
+    <CSCVersion>LF2</CSCVersion>
+
+    <NbCustomer>11</NbCustomer>
+    
+    <CustomerData src="/Customer/XEF/customer.xml" />
+
+    <CustomerData src="/Customer/XEN/customer.xml" />
+
+    <CustomerData src="/Customer/DBT/customer.xml" />
+
+    <CustomerData src="/Customer/XEO/customer.xml" />
+
+    <CustomerData src="/Customer/XEU/customer.xml" />
+
+    <CustomerData src="/Customer/XET/customer.xml" />
+    
+    <CustomerData src="/Customer/ITV/customer.xml" />
+    
+    <CustomerData src="/Customer/EUR/customer.xml" />
+
+    <CustomerData src="/Customer/CYO/customer.xml" />
+    
+    <CustomerData src="/Customer/TPH/customer.xml" />
+    
+    <CustomerData src="/Customer/XSK/customer.xml" />
+    
+  </CustomerDataSet>
+
+</SW-Configuration>

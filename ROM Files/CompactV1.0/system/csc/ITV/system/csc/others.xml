@@ -1,0 +1,72 @@
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<CustomerData>
+  <BrowserData>
+    <HomePage>
+      <URL>http://wap.it.samsungmobile.com</URL>
+    </HomePage>
+  </BrowserData>
+
+  <!-- Samsung Keypad 설정 -->
+  <SamsungKeypad>
+    <!-- Portrait keypad Types 설정 -->
+    <!-- 아래 중 하나만 지정 가능합니다. -->
+    <!-- QwertyKeypad, 3x4Keypad, HandwritingBox1, HandwritingBox2 -->
+    <inputmethod_type>QwertyKeypad</inputmethod_type>
+
+	<!-- XT9 설정 : on, off 중 택일 -->
+	<xt9_enabled>off</xt9_enabled>
+
+	<!-- Word completion 설정 : on, off 중 택일 -->
+	<word_completion>on</word_completion>
+
+	<!-- Word completion point 설정 : 2, 3, 4, 5 중 택일 -->
+	<word_completion_point>2</word_completion_point>
+
+	<!-- Spell correction 설정 : on, off 중 택일 -->
+	<spell_correction>on</spell_correction>
+    
+	<!-- Next word prediction 설정 : on, off 중 택일 -->
+	<next_word_prediction>on</next_word_prediction>
+
+	<!-- Auto-append 설정 : on, off 중 택일 -->
+	<auto_append>off</auto_append>
+
+	<!-- Auto-substitution 설정 : on, off 중 택일 -->
+	<auto_subtitution>off</auto_subtitution>
+
+	<!-- Regional correction 설정 : on, off 중 택일 -->
+	<regional_correction>off</regional_correction>
+
+	<!-- Recapture 설정 : on, off 중 택일 -->
+	<recapture>off</recapture>
+
+	<!-- Keypad sweeping 설정 : on, off 중 택일 -->
+	<keypad_sweeping>on</keypad_sweeping>
+
+	<!-- Auto-capitalization 설정 : on, off 중 택일 -->
+	<Auto_capitalization>on</Auto_capitalization>
+
+	<!-- Handwriting의 Recognition time 설정 -->
+	<!-- 100, 300, 500, 1000, 2000 중 택일 -->
+	<recognition_time>500</recognition_time>
+
+	<!-- Auto-period 설정 : on, off 중 택일 -->
+	<Auto_period>off</Auto_period>
+  </SamsungKeypad>
+
+  <LatinIME>
+    <VibrateOn>on</VibrateOn>
+    <SoundOn>on</SoundOn>
+  </LatinIME>
+
+  <!-- 초기 부팅시 디폴트 입력기 지정 -->
+  <DefaultInputMethod>
+    <!-- 디폴트 입력기로 지정하고 싶은 입력기의 package name 을 적으면 됨 -->
+	<!-- 예) 삼성키패드 : com.sec.android.inputmethod.axt9 -->
+	<!-- 예) Swype : com.swype.android.inputmethod -->
+	<!-- 예) Android Keyboard : com.android.inputmethod.latin -->
+	<!-- 위 예에 없더라도 상관없이 디폴트로 설정하고자 하는 입력기를 지정하시면 됩니다. -->
+	<input_method>com.sec.android.inputmethod.axt9</input_method>
+  </DefaultInputMethod>
+
+</CustomerData>

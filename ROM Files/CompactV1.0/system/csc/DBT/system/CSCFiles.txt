@@ -1,0 +1,12 @@
+/system/csc/DBT/system/CSCFiles.txt
+/system/csc/DBT/system/default.prop
+/system/csc/DBT/system/usr/keychars/sec_keypad.kcm.bin
+/system/csc/DBT/system/usr/keychars/sec_keypad0.kcm.bin
+/system/csc/DBT/system/usr/keylayout/sec_keypad.kl
+/system/csc/DBT/system/usr/keylayout/sec_keypad0.kl
+/system/csc/DBT/system/CSCVersion.txt
+/system/csc/DBT/system/csc/customer.xml
+/system/csc/DBT/system/csc/others.xml
+/system/csc/DBT/system/csc/sales_code.dat
+/system/csc/DBT/system/csc/contents.db
+/system/csc/DBT/system/app/Swype.apk

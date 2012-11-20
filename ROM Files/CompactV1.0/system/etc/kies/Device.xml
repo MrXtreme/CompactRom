@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<SDP version="0.9" domain="Particular">
+  <Device>
+    <ModelName      value="GT-B5512"/>
+    <BaseModelName  value="GT-B5512"/>
+    <ProjectName  value="LuisaDS"/>
+    <FriendlyName  value="LuisaDS"/>
+    <ProductLineup value="HHP"/>
+    <OS value="Android" />
+    <TargetMarket value= "Europe" />
+    <Platform value="Android" lab="GALAB"/>
+    <Language value= "English" />
+    <LCD>
+      <Type value="QVGA"/>
+      <Width  value="320"/>
+      <Height value="240"/>
+      <Color value="16777216"/>
+    </LCD>
+    <Operator value="Open" />
+    <ConnectModes>
+      <USB>
+      <ConnectMode name="PCLink" value= "MODEM">
+      	<SupportApp>
+		<Calendar/>
+	        <Phonebook/>
+	        <Memo/>
+		<MessageManager/>
+		<BackupRestore/>
+		</SupportApp>
+      </ConnectMode>
+
+      <ConnectMode name="RemovableDisk" value= "UMS" >
+		<SupportApp>
+		<FileManagement/>
+		</SupportApp>
+	  </ConnectMode>
+
+      </USB>
+    </ConnectModes>
+
+    <SIM accessibility="all">
+        <SupportPhonebook accessibility="all" value="true" />
+        <SupportDualSim accessibility="all"  value="true" />
+    </SIM>
+    <TwoNumber value="FALSE"/>
+    <Storage>
+      <SupportExternal value="TRUE"/>
+    </Storage>
+    <EnableDriveAfterConnection value="TRUE" />
+    <TimeCoordinate value="UTC"/>
+    <DST value="FALSE"/>
+
+    <MediaSync value="FALSE">
+	</MediaSync>
+    <BackupRestore value="TRUE"/>
+    <FirmwareUpdate value="TRUE"/>
+  <MacSupport value="TRUE"/>
+	<QuickFixes>
+		<ModelDB>
+			<Property name="IgnoreAccount" value="false" /> 
+		</ModelDB>
+	</QuickFixes>    
+  </Device>
+</SDP>

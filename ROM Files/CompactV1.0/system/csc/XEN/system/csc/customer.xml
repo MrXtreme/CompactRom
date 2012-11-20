@@ -1,0 +1,308 @@
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED001</CSCEdition>
+    <Country>The Netherlands</Country>
+    <SalesCode>XEN</SalesCode>
+    <NbNetworkInfo>4</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20404</MCCMNC>
+      <NetworkName>vodafone NL</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20412</MCCMNC>
+      <NetworkName>NL Telfort</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20416</MCCMNC>
+      <NetworkName>T-Mobile NL</NetworkName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20408</MCCMNC>
+      <NetworkName>NL KPN</NetworkName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Network>
+        <NbFastDormancy>1</NbFastDormancy>
+        <FastDormancy>
+          <FastDormancyEnableStatus>off</FastDormancyEnableStatus>
+        </FastDormancy>
+        <NbWbAmr>1</NbWbAmr>
+        <WbAmr>
+          <WbAmrCodec>on</WbAmrCodec>
+        </WbAmr>
+        <NbSOSNumber>1</NbSOSNumber>
+        <SOSNumber>112, 911</SOSNumber>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>off</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Phone>
+        <DefLanguage>automatic</DefLanguage>
+        <DefLanguageNoSIM>dutch</DefLanguageNoSIM>
+        <DateTimeFormat>
+          <DateFormat>ddmmyyyy</DateFormat>
+          <TimeFormat>24h</TimeFormat>
+        </DateTimeFormat>
+      </Phone>
+      <Security />
+    </Main>
+    <Messages>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+        <CharSupport>gsmalpha</CharSupport>
+        <SSMS>off</SSMS>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <CreationMode>warning</CreationMode>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+      </MMS>
+    </Messages>
+    <Message>
+      <SMS>
+        <CellBroadcast>on</CellBroadcast>
+        <NbCellBroadcastChannel>1</NbCellBroadcastChannel>
+        <CellBroadcastChannel>919</CellBroadcastChannel>
+      </SMS>
+    </Message>
+    <BT>
+      <Activation>off</Activation>
+      <Visibility>on</Visibility>
+      <SAP>on</SAP>
+    </BT>
+    <GPS>
+      <GPSMode>sgps</GPSMode>
+    </GPS>
+    <Browser>
+      <NbBookmark>11</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Samsung Mobile</BookmarkName>
+        <URL>http://mmm.samsung.nl/fav</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Shop Games</BookmarkName>
+        <URL>http://mmm.samsung.nl/ShopGames</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Shop Ringtones</BookmarkName>
+        <URL>http://mmm.samsung.nl/ShopRT</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Shop Wallpapers</BookmarkName>
+        <URL>http://mmm.samsung.nl/ShopWP</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Shop Videos</BookmarkName>
+        <URL>http://mmm.samsung.nl/ShopVideo</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Laatste nieuws</BookmarkName>
+        <URL>http://mmm.samsung.nl/InfoNews</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Verkeersinformatie</BookmarkName>
+        <URL>http://mmm.samsung.nl/InfoTraffic</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Weersverwachting</BookmarkName>
+        <URL>http://mmm.samsung.nl/InfoWeather</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Regen Radar</BookmarkName>
+        <URL>http://mmm.samsung.nl/InfoRain</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Financieel Nieuws</BookmarkName>
+        <URL>http://mmm.samsung.nl/InfoFinancial</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.nl</URL>
+      </Bookmark>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>4</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>vodafone NL</NetworkName>
+        <ProfBrowser>Vodafone Internet</ProfBrowser>
+        <ProfMMS>Vodafone MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>NL Telfort</NetworkName>
+        <ProfBrowser>Telfort Internet</ProfBrowser>
+        <ProfMMS>Telfort MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>T-Mobile NL</NetworkName>
+        <ProfBrowser>T-Mobile Internet</ProfBrowser>
+        <ProfMMS>T-Mobile MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>NL KPN</NetworkName>
+        <ProfBrowser>KPN Internet</ProfBrowser>
+        <ProfMMS>KPN MMS</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>8</NbProfile>
+      <Profile>
+        <NetworkName>vodafone NL</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Vodafone MMS</ProfileName>
+        <URL>http://mmsc.mms.vodafone.nl</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.251.150</ServAddr>
+          <Port>8799</Port>
+        </Proxy>
+        <PSparam>
+          <APN>live.vodafone.com</APN>
+          <UserId>vodafone</UserId>
+          <Password>vodafone</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>vodafone NL</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Vodafone Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>live.vodafone.com</APN>
+          <UserId>vodafone</UserId>
+          <Password>vodafone</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>NL Telfort</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Telfort MMS</ProfileName>
+        <URL>http://mms</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>193.113.200.195</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>NL Telfort</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Telfort Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>T-Mobile NL</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>T-Mobile Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>T-Mobile NL</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>T-Mobile MMS</ProfileName>
+        <URL>http://t-mobilemms</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.10.10.11</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+          <UserId>tmobilemms</UserId>
+          <Password>tmobilemms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>NL KPN</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>KPN Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>portalmmm.nl</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>NL KPN</NetworkName>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>KPN MMS</ProfileName>
+        <URL>http://mp.mobiel.kpn/mmsc</URL>
+        <Auth>normal</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.10.100.20</ServAddr>
+          <Port>5080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>portalmmm.nl</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>
